@@ -5,7 +5,7 @@
    }
    }
 
- export  const getFromStorage = (key) => {
+ export const getFromStorage = (key) => {
     if(typeof window !== 'undefined'){
          window.localstorage.getItem(key)
     }

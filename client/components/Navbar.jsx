@@ -21,7 +21,7 @@ const Navbar = () => {
         {["Market", "Exchange", "Tutorials", "Wallets","Flash Loans","Insurance"].map((item, index) => (
           <NavBarItem key={item + index} title={item} />
         ))}
-        
+       
       </ul>
       <div className="flex relative">
         {!toggleMenu && (
